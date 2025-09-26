@@ -4,8 +4,6 @@ import os
 from dotenv import load_dotenv
 import asyncio
 
-# import db
-from cogs import db   # <--- thêm dòng này
 
 # đảm bảo thư mục data tồn tại
 os.makedirs("data", exist_ok=True)
@@ -67,4 +65,5 @@ async def main():
         await bot.start(TOKEN)
 
 # ---------------- Chạy bot ----------------
+
 asyncio.run(main())
