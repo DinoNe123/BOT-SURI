@@ -1,0 +1,6 @@
+discord.py==2.6.2
+yt-dlp
+python-dotenv
+aiohttp
+PyNaCl
+pytz
